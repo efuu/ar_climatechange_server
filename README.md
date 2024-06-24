@@ -1,7 +1,6 @@
 ## Prerequisites
 
-- Python version >= 3.7, <3.11
-      -download at https://www.python.org/
+- Python version >= 3.7, <3.11; download at https://www.python.org/
 - pip
 
 ## Installation
