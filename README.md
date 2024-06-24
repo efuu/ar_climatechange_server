@@ -16,7 +16,7 @@
     python -m venv venv
     ```
 
-   using conda:
+   if using conda:
    ```bash
    conda create --name climatechange-server python
    ```
@@ -27,7 +27,7 @@
         ```bash
         venv\Scripts\activate
         ```
-        or
+        or if using conda:
         ```bash
         conda activate climate-prediction
         ```
