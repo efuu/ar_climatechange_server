@@ -29,7 +29,7 @@
         ```
         or if using conda:
         ```bash
-        conda activate climate-prediction
+        conda activate climatechange-server
         ```
     - On macOS:
         ```bash
