@@ -47,7 +47,7 @@
 
 2. Start the Flask server:
     ```bash
-    python app.py
+    python server.py
     ```
 
 3. The server will start on `http://127.0.0.1:5000` by default.
