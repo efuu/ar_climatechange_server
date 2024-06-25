@@ -1,7 +1,7 @@
 ## Prerequisites
 
-- Python version 3.11.3; download [python 3.11.3](https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe)
-- pip
+- Python version >=3.8; tested to work on python 3.11.3 [(download)](https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe) and 3.10.12 [(download)](https://www.python.org/downloads/release/python-31012/)
+- pip or conda
 
 ## Installation
 
