@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- Python version >= 3.7, <3.11; download at https://www.python.org/
+- Python version 3.11.3; download [python 3.11.3](https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe)
 - pip
 
 ## Installation
