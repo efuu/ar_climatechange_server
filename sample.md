@@ -187,4 +187,3 @@ void LoadCSVData(string filePath, string scenario)
 ## Future Work
 
 - **Improved Visualization**: Currently the redness increase on the Earth does not reflect the accurate change of the temperature across the Earth as different areas have different rates of change for temperature while the application displays the redness of the Earth as uniformly increasing.
-```
