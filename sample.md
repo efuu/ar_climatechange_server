@@ -46,6 +46,7 @@ public void UpdateRedFactorForAllCountries(float value)
         }
     }
 }
+```
 
 ### Shader Code
 ```csharp
