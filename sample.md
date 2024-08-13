@@ -15,9 +15,7 @@
 
 ## Overview
 
-The Climate Change Prediction AR Application is an educational tool that allows users to visualize the changes in global temperatures, both historically and predicted for the future. The application leverages Unity and AR Foundation to provide an interactive experience where users can observe how temperature variations impact different countries around the world.
-
-The application is divided into two main scenes:
+The temperatures module is divided into two main scenes:
 1. **Historical Temperature**: Shows the actual historical temperature data from 1901 to 2020.
 2. **Temperature Prediction**: Predicts temperature increases from 2020 to 2099 based on various climate scenarios.
 
@@ -43,7 +41,6 @@ public void UpdateRedFactorForAllCountries(float value)
     {
         if (country != null && country.meshRenderer != null)
         {
-            // Instead of creating a new material each time, modify the existing one
             Material material = country.meshRenderer.material;
             material.SetFloat("_redFactor", value);
         }
@@ -54,13 +51,7 @@ public void UpdateRedFactorForAllCountries(float value)
 ```csharp
 float4 moreRedColor = lerp(float4(hsvTorgb391, 0.0), float4(1.0, 0.0, 0.0, 1.0), _redFactor);
 lerpResult392 = lerp(temp_output_372_0, moreRedColor, _VertexColorTint);
-//changed stripe value * 2
 float4 CountriesEmission152 = ( ( StripesMaskCountries335 * temp_output_109_0 * _StripesValue * 10 ) + ( BordersMask144 * temp_output_109_0 * NoiseAnimSmall300 * 3) + lerpResult392 );
-//CountriesEmission152 = lerp(CountriesEmission152, float4(1.0, 0.0, 0.0, 1.0), _redFactor);
-//float4 temptest = lerp(CountriesEmission152, float3(1.0,0.0,0.0), 0.5);
-
-//CountriesEmission152 = lerp(CountriesEmission152, intermediateColor, _redFactor);
-
 CountriesEmission152 = lerp(CountriesEmission152, moreRedColor, _redFactor);
 ```
 
