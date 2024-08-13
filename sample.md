@@ -10,7 +10,6 @@
   - [Historical Temperature Data](#historical-temperature-data)
   - [Future Prediction Data](#future-prediction-data)
 - [How to Use](#how-to-use)
-- [Dependencies](#dependencies)
 - [Future Work](#future-work)
 
 ## Overview
