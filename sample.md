@@ -185,17 +185,7 @@ void LoadCSVData(string filePath, string scenario)
     - Use the year slider to select a year between 2020 and 2099.
     - Observe the predicted temperature increase and the corresponding change in the Earth's redness.
 
-## Dependencies
-
-- **Unity 2021.3+**
-- **AR Foundation 5.1**
-- **Michsky's Modern UI Pack (MUIP)**
-- **TextMeshPro**
-- **SceneManager**
-
 ## Future Work
 
-- **Additional Scenarios**: Incorporate more climate scenarios and extend the prediction range.
-- **Improved Visualization**: Enhance the shader effects for better visual representation of temperature changes.
-- **User Feedback Integration**: Gather user feedback to refine and improve the application’s educational effectiveness.
+- **Improved Visualization**: Currently the redness increase on the Earth does not reflect the accurate change of the temperature across the Earth as different areas have different rates of change for temperature while the application displays the redness of the Earth as uniformly increasing.
 ```
