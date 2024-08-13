@@ -1,4 +1,3 @@
-```markdown
 # Climate Change Prediction AR Application
 
 ## Table of Contents
@@ -50,7 +49,6 @@ public void UpdateRedFactorForAllCountries(float value)
         }
     }
 }
-```
 
 ### Shader Code
 ```csharp
