@@ -1,5 +1,3 @@
-Certainly! Below is the entire `README.md` content for your project:
-
 ```markdown
 # Climate Change Prediction AR Application
 
